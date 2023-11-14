@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="logout" transform="translate(24 24) rotate(180)">
+    <rect id="vuesax_outline_logout" data-name="vuesax/outline/logout" width="24" height="24" fill="none"/>
+    <g id="vuesax_outline_logout-2" data-name="vuesax/outline/logout">
+      <g id="logout-2" data-name="logout">
+        <path id="Vector" d="M7.092-20.54h-.13c-4.44,0-6.58,1.75-6.95,5.67a.751.751,0,0,0,.68.82.765.765,0,0,0,.82-.68c.29-3.14,1.77-4.31,5.46-4.31H7.1c4.07,0,5.51,1.44,5.51,5.51v6.52c0,4.07-1.44,5.51-5.51,5.51h-.13c-3.71,0-5.19-1.19-5.46-4.39a.759.759,0,0,0-.82-.68A.751.751,0,0,0,0-5.76C.342-1.78,2.492,0,6.962,0h.13C12,0,14.1-2.1,14.1-7.01v-6.52C14.1-18.44,12-20.54,7.092-20.54Z" transform="translate(8.148 22.27)" fill="#fff"/>
+        <path id="Vector-2" data-name="Vector" d="M12.13-1.5H.75A.755.755,0,0,0,0-.75.755.755,0,0,0,.75,0H12.13a.755.755,0,0,0,.75-.75A.755.755,0,0,0,12.13-1.5Z" transform="translate(2.87 12.75)" fill="#fff"/>
+        <path id="Vector-3" data-name="Vector" d="M4.1-8.2a.742.742,0,0,0-.53.22L.218-4.628a.754.754,0,0,0,0,1.06l3.35,3.35a.754.754,0,0,0,1.06,0,.754.754,0,0,0,0-1.06L1.807-4.1l2.82-2.82a.754.754,0,0,0,0-1.06A.725.725,0,0,0,4.1-8.2Z" transform="translate(1.753 16.097)" fill="#fff"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H24V-24H0Z" transform="translate(0 24)" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

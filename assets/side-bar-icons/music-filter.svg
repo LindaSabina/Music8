@@ -1,0 +1,15 @@
+<svg id="music-filter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_music-filter" data-name="vuesax/outline/music-filter">
+    <g id="music-filter-2" data-name="music-filter">
+      <path id="Vector" d="M20.75,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h20a.755.755,0,0,1,.75.75A.755.755,0,0,1,20.75,1.5Z" transform="translate(1.25 2.25)" fill="#fff"/>
+      <path id="Vector-2" data-name="Vector" d="M9.75,1.5h-9A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h9a.755.755,0,0,1,.75.75A.755.755,0,0,1,9.75,1.5Z" transform="translate(1.25 8.25)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M6.75,1.5h-6A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h6A.755.755,0,0,1,7.5.75.755.755,0,0,1,6.75,1.5Z" transform="translate(1.25 14.25)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M4.75,1.5h-4A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h4A.755.755,0,0,1,5.5.75.755.755,0,0,1,4.75,1.5Z" transform="translate(1.25 20.25)" fill="#fff"/>
+      <path id="Vector-5" data-name="Vector" d="M2.93,5.86A2.93,2.93,0,1,1,5.86,2.93,2.934,2.934,0,0,1,2.93,5.86Zm0-4.35A1.43,1.43,0,1,0,4.36,2.94,1.43,1.43,0,0,0,2.93,1.51Z" transform="translate(8.91 16.89)" fill="#fff"/>
+      <path id="Vector-6" data-name="Vector" d="M.75,13.321a.755.755,0,0,1-.75-.75V3.8a2.461,2.461,0,0,1,1.89-2.47L6.24.141a2.615,2.615,0,0,1,2.35.29,2.605,2.605,0,0,1,.88,2.19v8.51a.75.75,0,1,1-1.5,0V2.621a1.253,1.253,0,0,0-.29-.99A1.287,1.287,0,0,0,6.63,1.6L2.28,2.791a1,1,0,0,0-.78,1.03v8.77A.745.745,0,0,1,.75,13.321Z" transform="translate(13.27 7.249)" fill="#fff"/>
+      <path id="Vector-7" data-name="Vector" d="M2.93,5.86A2.93,2.93,0,1,1,5.86,2.93,2.934,2.934,0,0,1,2.93,5.86Zm0-4.35A1.43,1.43,0,1,0,4.36,2.94,1.43,1.43,0,0,0,2.93,1.51Z" transform="translate(16.89 15.44)" fill="#fff"/>
+      <path id="Vector-8" data-name="Vector" d="M.747,3.677a.747.747,0,0,1-.19-1.47L8.537.027a.751.751,0,1,1,.39,1.45L.947,3.657A1.5,1.5,0,0,1,.747,3.677Z" transform="translate(13.273 10.673)" fill="#fff"/>
+      <path id="Vector-9" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

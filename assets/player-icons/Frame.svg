@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="3" viewBox="0 0 18 3">
+  <g id="Frame" transform="translate(-3 -10.5)">
+    <path id="Vector" d="M1.5,0A1.5,1.5,0,1,0,3,1.5,1.5,1.5,0,0,0,1.5,0Zm15,0A1.5,1.5,0,1,0,18,1.5,1.5,1.5,0,0,0,16.5,0ZM9,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,9,0Z" transform="translate(3 10.5)" fill="#a8a8a8"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15">
+  <g id="Delete" transform="translate(-332.5 -731)">
+    <path id="Path_12" data-name="Path 12" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(338 742.976) rotate(180)" fill="#72717d"/>
+    <path id="Path_11" data-name="Path 11" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(340 742.976) rotate(180)" fill="#72717d"/>
+    <path id="Path_10" data-name="Path 10" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(342 742.976) rotate(180)" fill="#72717d"/>
+    <path id="Path_9" data-name="Path 9" d="M1,1V11a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1H1M0,0H11V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" transform="translate(334 733)" fill="#73707d"/>
+    <path id="Path_8" data-name="Path 8" d="M0,0H13" transform="translate(333 733.5)" fill="none" stroke="#73707d" stroke-linecap="round" stroke-width="1"/>
+    <path id="Path_7" data-name="Path 7" d="M1,1V2H4V1H1M1,0H4A1,1,0,0,1,5,1V3H0V1A1,1,0,0,1,1,0Z" transform="translate(337 731)" fill="#73707d"/>
+  </g>
+</svg>

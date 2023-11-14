@@ -1,0 +1,13 @@
+<svg id="shuffle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="vuesax_outline_shuffle" data-name="vuesax/outline/shuffle" width="24" height="24" fill="none"/>
+  <g id="vuesax_outline_shuffle-2" data-name="vuesax/outline/shuffle">
+    <g id="shuffle-2" data-name="shuffle">
+      <path id="Vector" d="M3.32,13.49H3.3L.75,13.48a.75.75,0,0,1,0-1.5l2.55.01h.01a1.929,1.929,0,0,0,1.62-.87l6.39-9.58A3.444,3.444,0,0,1,14.19,0h.02l4.55.02a.755.755,0,0,1,.75.75.755.755,0,0,1-.75.75L14.21,1.5H14.2a1.929,1.929,0,0,0-1.62.87L6.19,11.95A3.419,3.419,0,0,1,3.32,13.49Z" transform="translate(2.24 5.25)" fill="#799b7d"/>
+      <path id="Vector-2" data-name="Vector" d="M.747,3.5a.742.742,0,0,1-.53-.22.754.754,0,0,1,0-1.06l2-2a.75.75,0,0,1,1.06,1.06l-2,2A.742.742,0,0,1,.747,3.5Z" transform="translate(18.252 17.232)" fill="#799b7d"/>
+      <path id="Vector-3" data-name="Vector" d="M6.64,4.12a.767.767,0,0,1-.61-.31L4.95,2.31A1.99,1.99,0,0,0,3.36,1.5L.75,1.51A.725.725,0,0,1,0,.76.749.749,0,0,1,.75.01L3.36,0h.02a3.477,3.477,0,0,1,2.8,1.43l1.08,1.5a.753.753,0,0,1-.17,1.05A.823.823,0,0,1,6.64,4.12Z" transform="translate(2.25 5.26)" fill="#799b7d"/>
+      <path id="Vector-4" data-name="Vector" d="M4.1,4.115a3.473,3.473,0,0,1-2.73-1.34L.155,1.2A.756.756,0,0,1,.285.155a.756.756,0,0,1,1.05.13l1.22,1.57a2.112,2.112,0,0,0,1.55.76l4.67-.02a.75.75,0,1,1,0,1.5l-4.67.02Z" transform="translate(12.215 14.635)" fill="#799b7d"/>
+      <path id="Vector-5" data-name="Vector" d="M2.747,3.5a.742.742,0,0,1-.53-.22l-2-2A.75.75,0,0,1,1.277.218l2,2a.754.754,0,0,1,0,1.06A.742.742,0,0,1,2.747,3.5Z" transform="translate(18.252 3.272)" fill="#799b7d"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

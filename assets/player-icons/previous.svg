@@ -1,0 +1,10 @@
+<svg id="previous" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="vuesax_outline_previous" data-name="vuesax/outline/previous" width="24" height="24" fill="none"/>
+  <g id="vuesax_outline_previous-2" data-name="vuesax/outline/previous">
+    <g id="previous-2" data-name="previous">
+      <path id="Vector" d="M11.59,16.18a3.278,3.278,0,0,1-1.65-.45L1.65,10.95a3.3,3.3,0,0,1,0-5.72L9.94.45a3.3,3.3,0,0,1,4.95,2.86v9.57a3.284,3.284,0,0,1-1.65,2.86A3.371,3.371,0,0,1,11.59,16.18Zm0-14.68a1.812,1.812,0,0,0-.9.24L2.4,6.52a1.8,1.8,0,0,0,0,3.12l8.29,4.78a1.76,1.76,0,0,0,1.8,0,1.8,1.8,0,0,0,.9-1.56V3.29a1.8,1.8,0,0,0-.9-1.56A2.037,2.037,0,0,0,11.59,1.5Z" transform="translate(6.1 3.91)" fill="#343346"/>
+      <path id="Vector-2" data-name="Vector" d="M.75,13.86A.755.755,0,0,1,0,13.11V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V13.11A.755.755,0,0,1,.75,13.86Z" transform="translate(3.01 5.07)" fill="#343346"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+    </g>
+  </g>
+</svg>

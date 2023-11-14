@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1248" height="398" viewBox="0 0 1248 398">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="1248" height="398" transform="translate(0 626)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="BgPinkDot" transform="translate(0 -626)" clip-path="url(#clip-path)">
+    <path id="Ellipse_152" data-name="Ellipse 152" d="M1015.5,344.07c0,282.217-228.782,511-511,511S0,449.287,0,167.069,193.783,45.57,476,45.57,1015.5,61.852,1015.5,344.07Z" transform="translate(85 695)" fill="#f4ddde"/>
+  </g>
+</svg>

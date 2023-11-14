@@ -1,0 +1,15 @@
+<svg id="global-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="vuesax_outline_global-search" data-name="vuesax/outline/global-search" width="24" height="24" fill="none"/>
+  <g id="vuesax_outline_global-search-2" data-name="vuesax/outline/global-search">
+    <g id="global-search-2" data-name="global-search">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75a.75.75,0,0,1-1.5,0A9.25,9.25,0,1,0,10.75,20a.75.75,0,0,1,0,1.5Z" transform="translate(1.25 1.25)" fill="#fff"/>
+      <path id="Vector-2" data-name="Vector" d="M2.2,19.5h-1a.755.755,0,0,1-.75-.75.745.745,0,0,1,.73-.75,29.49,29.49,0,0,1,0-16.5A.75.75,0,0,1,1.2,0h1a.767.767,0,0,1,.61.31.751.751,0,0,1,.1.68,27.948,27.948,0,0,0,0,17.53.751.751,0,0,1-.1.68A.731.731,0,0,1,2.2,19.5Z" transform="translate(6.803 2.25)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M2.208,10.5a.755.755,0,0,1-.75-.75A27.757,27.757,0,0,0,.038.988a.749.749,0,1,1,1.42-.48,29.268,29.268,0,0,1,1.5,9.24A.755.755,0,0,1,2.208,10.5Z" transform="translate(14.251 2.252)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M9.75,2.961A29.134,29.134,0,0,1,1.5,1.771.75.75,0,0,1,0,1.751v-1A.767.767,0,0,1,.31.141a.751.751,0,0,1,.68-.1,27.757,27.757,0,0,0,8.76,1.42.75.75,0,1,1,0,1.5Z" transform="translate(2.25 14.249)" fill="#fff"/>
+      <path id="Vector-5" data-name="Vector" d="M18.758,2.953a.672.672,0,0,1-.24-.04,27.948,27.948,0,0,0-17.53,0,.749.749,0,0,1-.48-1.42,29.318,29.318,0,0,1,18.47,0,.753.753,0,0,1,.47.95A.708.708,0,0,1,18.758,2.953Z" transform="translate(2.242 6.797)" fill="#fff"/>
+      <path id="Vector-6" data-name="Vector" d="M3.95,7.9A3.95,3.95,0,1,1,7.9,3.95,3.952,3.952,0,0,1,3.95,7.9Zm0-6.4A2.45,2.45,0,1,0,6.4,3.95,2.454,2.454,0,0,0,3.95,1.5Z" transform="translate(14.25 14.25)" fill="#fff"/>
+      <path id="Vector-7" data-name="Vector" d="M1.747,2.5a.742.742,0,0,1-.53-.22l-1-1A.75.75,0,0,1,1.277.218l1,1a.755.755,0,0,1,0,1.06A.742.742,0,0,1,1.747,2.5Z" transform="translate(20.252 20.252)" fill="#fff"/>
+      <path id="Vector-8" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+    </g>
+  </g>
+</svg>
