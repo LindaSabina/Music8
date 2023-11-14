@@ -1,0 +1,19 @@
+input:not([type="submit"], [type="checkbox"], [type="radio"]) {
+    background-color: #37354A;
+    border: 0;
+    padding: 1rem;
+    padding-left: 3.25rem;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #ffffff80;
+    border: 2px solid transparent;
+
+    &::placeholder {
+        color: #ffffff60;
+    }
+
+    &:focus {
+        outline: none;
+        border: 2px solid #ffffff60;
+    }
+}
