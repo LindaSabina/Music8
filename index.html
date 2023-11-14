@@ -6,10 +6,988 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCSS - BASE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" defer></script>
+    <script src="js/queueExpand.js" defer></script>
+    <script src="js/playerCollapse.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/headerScroll.js" defer></script>
 </head>
 <body>
 
+<div class="container">
 
+    <div class="music8">
+        
+        <div class="side-bar">
+    
+            <a href="" class="logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="51.966" height="51.966" viewBox="0 0 51.966 51.966">
+                <g id="logo" transform="translate(-270 -218.239)">
+                  <path id="Path_1" data-name="Path 1" d="M12.711,0H26.17V13.459A12.711,12.711,0,0,1,13.459,26.17,13.459,13.459,0,0,1,0,12.711,12.711,12.711,0,0,1,12.711,0Z" transform="translate(296.17 244.409) rotate(180)" fill="#BCD3EE"/>
+                  <path id="Path_3" data-name="Path 3" d="M12.711,0H26.17V13.459A12.711,12.711,0,0,1,13.459,26.17,13.459,13.459,0,0,1,0,12.711,12.711,12.711,0,0,1,12.711,0Z" transform="translate(295.796 244.035)" fill="#BCD3EE"/>
+                  <path id="Path_2" data-name="Path 2" d="M12.711,0H26.17V13.459A12.711,12.711,0,0,1,13.459,26.17,13.459,13.459,0,0,1,0,12.711,12.711,12.711,0,0,1,12.711,0Z" transform="translate(296.17 244.035) rotate(90)" fill="#BCD3EE"/>
+                  <path id="Path_4" data-name="Path 4" d="M12.711,0H26.17V13.459A12.711,12.711,0,0,1,13.459,26.17,13.459,13.459,0,0,1,0,12.711,12.711,12.711,0,0,1,12.711,0Z" transform="translate(295.796 244.409) rotate(-90)" fill="#BCD3EE"/>
+                </g>
+              </svg>
+            </a>
+    
+            <nav class="menu">
+                <ul class="menu__list">
+    
+                    <li class="menu__item menu__item--current"><a href="" class="menu__link home-link">
+                        <svg id="home" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <rect id="vuesax_bold_home" data-name="vuesax/bold/home" width="24" height="24" fill="none"/>
+                            <g id="vuesax_bold_home-2" data-name="vuesax/bold/home">
+                              <g id="home-2" data-name="home">
+                                <path id="Vector" d="M19,6.01,12.45.77A3.765,3.765,0,0,0,7.9.76L1.35,6.01A3.917,3.917,0,0,0,.04,9.44L1.3,16.98A3.716,3.716,0,0,0,4.87,20h10.6a3.773,3.773,0,0,0,3.58-3.03l1.26-7.54A4.018,4.018,0,0,0,19,6.01ZM10.92,16a.75.75,0,0,1-1.5,0V13a.75.75,0,0,1,1.5,0Z" transform="translate(1.83 2)" fill="#fff"/>
+                                <!-- <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/> -->
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="menu__link-text">
+                          Home
+                        </p>
+                    </a></li>
+    
+                    <li class="menu__item"><a href="" class="menu__link global-search-link">
+                        <svg id="global-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <rect id="vuesax_outline_global-search" data-name="vuesax/outline/global-search" width="24" height="24" fill="none"/>
+                            <g id="vuesax_outline_global-search-2" data-name="vuesax/outline/global-search">
+                              <g id="global-search-2" data-name="global-search">
+                                <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75a.75.75,0,0,1-1.5,0A9.25,9.25,0,1,0,10.75,20a.75.75,0,0,1,0,1.5Z" transform="translate(1.25 1.25)" fill="#fff"/>
+                                <path id="Vector-2" data-name="Vector" d="M2.2,19.5h-1a.755.755,0,0,1-.75-.75.745.745,0,0,1,.73-.75,29.49,29.49,0,0,1,0-16.5A.75.75,0,0,1,1.2,0h1a.767.767,0,0,1,.61.31.751.751,0,0,1,.1.68,27.948,27.948,0,0,0,0,17.53.751.751,0,0,1-.1.68A.731.731,0,0,1,2.2,19.5Z" transform="translate(6.803 2.25)" fill="#fff"/>
+                                <path id="Vector-3" data-name="Vector" d="M2.208,10.5a.755.755,0,0,1-.75-.75A27.757,27.757,0,0,0,.038.988a.749.749,0,1,1,1.42-.48,29.268,29.268,0,0,1,1.5,9.24A.755.755,0,0,1,2.208,10.5Z" transform="translate(14.251 2.252)" fill="#fff"/>
+                                <path id="Vector-4" data-name="Vector" d="M9.75,2.961A29.134,29.134,0,0,1,1.5,1.771.75.75,0,0,1,0,1.751v-1A.767.767,0,0,1,.31.141a.751.751,0,0,1,.68-.1,27.757,27.757,0,0,0,8.76,1.42.75.75,0,1,1,0,1.5Z" transform="translate(2.25 14.249)" fill="#fff"/>
+                                <path id="Vector-5" data-name="Vector" d="M18.758,2.953a.672.672,0,0,1-.24-.04,27.948,27.948,0,0,0-17.53,0,.749.749,0,0,1-.48-1.42,29.318,29.318,0,0,1,18.47,0,.753.753,0,0,1,.47.95A.708.708,0,0,1,18.758,2.953Z" transform="translate(2.242 6.797)" fill="#fff"/>
+                                <path id="Vector-6" data-name="Vector" d="M3.95,7.9A3.95,3.95,0,1,1,7.9,3.95,3.952,3.952,0,0,1,3.95,7.9Zm0-6.4A2.45,2.45,0,1,0,6.4,3.95,2.454,2.454,0,0,0,3.95,1.5Z" transform="translate(14.25 14.25)" fill="#fff"/>
+                                <path id="Vector-7" data-name="Vector" d="M1.747,2.5a.742.742,0,0,1-.53-.22l-1-1A.75.75,0,0,1,1.277.218l1,1a.755.755,0,0,1,0,1.06A.742.742,0,0,1,1.747,2.5Z" transform="translate(20.252 20.252)" fill="#fff"/>
+                                <path id="Vector-8" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+                              </g>
+                            </g>
+                        </svg>   
+                        <p class="menu__link-text">
+                         Global search
+                        </p>
+                    </a></li>
+    
+                    <li class="menu__item"><a href="" class="menu__link music-filter-link">
+                      <svg id="music-filter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g id="vuesax_outline_music-filter" data-name="vuesax/outline/music-filter">
+                          <g id="music-filter-2" data-name="music-filter">
+                            <path id="Vector" d="M20.75,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h20a.755.755,0,0,1,.75.75A.755.755,0,0,1,20.75,1.5Z" transform="translate(1.25 2.25)" fill="#fff"/>
+                            <path id="Vector-2" data-name="Vector" d="M9.75,1.5h-9A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h9a.755.755,0,0,1,.75.75A.755.755,0,0,1,9.75,1.5Z" transform="translate(1.25 8.25)" fill="#fff"/>
+                            <path id="Vector-3" data-name="Vector" d="M6.75,1.5h-6A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h6A.755.755,0,0,1,7.5.75.755.755,0,0,1,6.75,1.5Z" transform="translate(1.25 14.25)" fill="#fff"/>
+                            <path id="Vector-4" data-name="Vector" d="M4.75,1.5h-4A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h4A.755.755,0,0,1,5.5.75.755.755,0,0,1,4.75,1.5Z" transform="translate(1.25 20.25)" fill="#fff"/>
+                            <path id="Vector-5" data-name="Vector" d="M2.93,5.86A2.93,2.93,0,1,1,5.86,2.93,2.934,2.934,0,0,1,2.93,5.86Zm0-4.35A1.43,1.43,0,1,0,4.36,2.94,1.43,1.43,0,0,0,2.93,1.51Z" transform="translate(8.91 16.89)" fill="#fff"/>
+                            <path id="Vector-6" data-name="Vector" d="M.75,13.321a.755.755,0,0,1-.75-.75V3.8a2.461,2.461,0,0,1,1.89-2.47L6.24.141a2.615,2.615,0,0,1,2.35.29,2.605,2.605,0,0,1,.88,2.19v8.51a.75.75,0,1,1-1.5,0V2.621a1.253,1.253,0,0,0-.29-.99A1.287,1.287,0,0,0,6.63,1.6L2.28,2.791a1,1,0,0,0-.78,1.03v8.77A.745.745,0,0,1,.75,13.321Z" transform="translate(13.27 7.249)" fill="#fff"/>
+                            <path id="Vector-7" data-name="Vector" d="M2.93,5.86A2.93,2.93,0,1,1,5.86,2.93,2.934,2.934,0,0,1,2.93,5.86Zm0-4.35A1.43,1.43,0,1,0,4.36,2.94,1.43,1.43,0,0,0,2.93,1.51Z" transform="translate(16.89 15.44)" fill="#fff"/>
+                            <path id="Vector-8" data-name="Vector" d="M.747,3.677a.747.747,0,0,1-.19-1.47L8.537.027a.751.751,0,1,1,.39,1.45L.947,3.657A1.5,1.5,0,0,1,.747,3.677Z" transform="translate(13.273 10.673)" fill="#fff"/>
+                            <path id="Vector-9" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                          </g>
+                        </g>
+                      </svg>
+                      <p class="menu__link-text">
+                        Music filter
+                      </p>
+                    </a></li>
+    
+                    <li class="menu__item"><a href="" class="menu__link heart-link">
+                        <svg id="Heart" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <rect id="vuesax_outline_heart" data-name="vuesax/outline/heart" width="24" height="24" fill="none"/>
+                            <g id="vuesax_outline_heart-2" data-name="vuesax/outline/heart">
+                              <g id="heart-2" data-name="heart">
+                                <path id="Vector" d="M10.75,19.3a2.589,2.589,0,0,1-.86-.13C6.07,17.86,0,13.21,0,6.34A6.329,6.329,0,0,1,6.31,0a6.214,6.214,0,0,1,4.44,1.84A6.214,6.214,0,0,1,15.19,0,6.336,6.336,0,0,1,21.5,6.34c0,6.88-6.07,11.52-9.89,12.83A2.589,2.589,0,0,1,10.75,19.3ZM6.31,1.5A4.831,4.831,0,0,0,1.5,6.34c0,6.83,6.57,10.63,8.88,11.42a1.585,1.585,0,0,0,.75,0c2.3-.79,8.88-4.58,8.88-11.42A4.831,4.831,0,0,0,15.2,1.5a4.751,4.751,0,0,0-3.84,1.94.774.774,0,0,1-1.2,0A4.77,4.77,0,0,0,6.31,1.5Z" transform="translate(1.25 2.35)" fill="#fff"/>
+                                <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="menu__link-text">
+                          Liked songs
+                        </p>
+                    </a></li>
+    
+                    <li class="menu__item"><a href="" class="menu__link health-link">
+                        <svg id="Health" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <rect id="vuesax_outline_health" data-name="vuesax/outline/health" width="24" height="24" fill="none"/>
+                            <g id="vuesax_outline_health-2" data-name="vuesax/outline/health">
+                              <g id="health-2" data-name="health">
+                                <path id="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.19,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(1.22 1.25)" fill="#fff"/>
+                                <path id="Vector-2" data-name="Vector" d="M10.21,8.221c-.24,0-.82-.09-1.16-.96L7.91,4.381a1.43,1.43,0,0,0-1.16-.79l-6,.02a.75.75,0,0,1,0-1.5l6-.02h.01a2.925,2.925,0,0,1,2.56,1.74l.91,2.3L12.29.911A1.273,1.273,0,0,1,13.38,0a1.254,1.254,0,0,1,1.18.78l1.04,1.97a1.477,1.477,0,0,0,1.11.67h4.06a.75.75,0,0,1,0,1.5H16.71a2.92,2.92,0,0,1-2.43-1.47l-.78-1.48-2.1,5.29A1.336,1.336,0,0,1,10.21,8.221Z" transform="translate(1.24 9.839)" fill="#fff"/>
+                                <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="menu__link-text">
+                          Health
+                        </p>
+                    </a></li>
+    
+                    <li class="menu__item"><a href="" class="menu__link settings-link">
+                        <svg id="setting" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <rect id="vuesax_outline_setting-2" data-name="vuesax/outline/setting-2" width="24" height="24" fill="none"/>
+                            <g id="vuesax_outline_setting-2-2" data-name="vuesax/outline/setting-2">
+                              <g id="setting-2">
+                                <path id="Vector" d="M3.75,7.5A3.75,3.75,0,1,1,7.5,3.75,3.751,3.751,0,0,1,3.75,7.5Zm0-6A2.25,2.25,0,1,0,6,3.75,2.253,2.253,0,0,0,3.75,1.5Z" transform="translate(8.25 8.25)" fill="#fff"/>
+                                <path id="Vector-2" data-name="Vector" d="M13.96,20.378a2.719,2.719,0,0,1-.63-.08,2.456,2.456,0,0,1-1.47-1.11l-.12-.2c-.59-1.02-1.4-1.02-1.99,0l-.11.19A2.4,2.4,0,0,1,8.17,20.3a2.341,2.341,0,0,1-1.83-.25l-1.72-.99a2.653,2.653,0,0,1-.98-3.62,1.338,1.338,0,0,0,.2-1.26,1.333,1.333,0,0,0-1.19-.46A2.655,2.655,0,0,1,0,11.068V9.308a2.655,2.655,0,0,1,2.65-2.65A1.333,1.333,0,0,0,3.84,6.2a1.311,1.311,0,0,0-.2-1.26,2.661,2.661,0,0,1-.26-2.01,2.58,2.58,0,0,1,1.24-1.61L6.35.328a2.422,2.422,0,0,1,3.3.87l.12.2c.59,1.02,1.4,1.02,1.99,0l.11-.19a2.414,2.414,0,0,1,3.31-.87l1.72.99a2.653,2.653,0,0,1,.98,3.62,1.338,1.338,0,0,0-.2,1.26,1.333,1.333,0,0,0,1.19.46,2.655,2.655,0,0,1,2.65,2.65v1.76a2.655,2.655,0,0,1-2.65,2.65,1.333,1.333,0,0,0-1.19.46,1.311,1.311,0,0,0,.2,1.26,2.617,2.617,0,0,1,.26,2.01,2.58,2.58,0,0,1-1.24,1.61l-1.73.99A2.488,2.488,0,0,1,13.96,20.378Zm-3.21-3.7a2.725,2.725,0,0,1,2.29,1.55l.11.19a.917.917,0,0,0,1.24.33l1.73-1a1.157,1.157,0,0,0,.54-.7,1.143,1.143,0,0,0-.11-.87,2.746,2.746,0,0,1-.2-2.76,2.732,2.732,0,0,1,2.49-1.21,1.144,1.144,0,0,0,1.15-1.15V9.3a1.15,1.15,0,0,0-1.15-1.15,2.732,2.732,0,0,1-2.49-1.21,2.746,2.746,0,0,1,.2-2.76,1.143,1.143,0,0,0,.11-.87,1.17,1.17,0,0,0-.53-.7l-1.73-.99a.92.92,0,0,0-1.26.33l-.11.19a2.725,2.725,0,0,1-2.29,1.55,2.725,2.725,0,0,1-2.29-1.55l-.11-.2a.918.918,0,0,0-1.24-.32l-1.73,1a1.157,1.157,0,0,0-.54.7,1.143,1.143,0,0,0,.11.87,2.746,2.746,0,0,1,.2,2.76,2.732,2.732,0,0,1-2.49,1.21A1.144,1.144,0,0,0,1.5,9.308v1.76a1.15,1.15,0,0,0,1.15,1.15,2.732,2.732,0,0,1,2.49,1.21,2.746,2.746,0,0,1-.2,2.76,1.143,1.143,0,0,0-.11.87,1.17,1.17,0,0,0,.53.7l1.73.99a.885.885,0,0,0,.69.1.949.949,0,0,0,.57-.43l.11-.19A2.745,2.745,0,0,1,10.75,16.678Z" transform="translate(1.25 1.812)" fill="#fff"/>
+                                <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="menu__link-text">
+                          Settings
+                        </p>
+                    </a></li>
+    
+                </ul>
+            </nav>
+
+            <div class="logout">
+              <a href="" class="logout-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g id="logout" transform="translate(24 24) rotate(180)">
+                    <rect id="vuesax_outline_logout" data-name="vuesax/outline/logout" width="24" height="24" fill="none"/>
+                    <g id="vuesax_outline_logout-2" data-name="vuesax/outline/logout">
+                      <g id="logout-2" data-name="logout">
+                        <path id="Vector" d="M7.092-20.54h-.13c-4.44,0-6.58,1.75-6.95,5.67a.751.751,0,0,0,.68.82.765.765,0,0,0,.82-.68c.29-3.14,1.77-4.31,5.46-4.31H7.1c4.07,0,5.51,1.44,5.51,5.51v6.52c0,4.07-1.44,5.51-5.51,5.51h-.13c-3.71,0-5.19-1.19-5.46-4.39a.759.759,0,0,0-.82-.68A.751.751,0,0,0,0-5.76C.342-1.78,2.492,0,6.962,0h.13C12,0,14.1-2.1,14.1-7.01v-6.52C14.1-18.44,12-20.54,7.092-20.54Z" transform="translate(8.148 22.27)" fill="#fff"/>
+                        <path id="Vector-2" data-name="Vector" d="M12.13-1.5H.75A.755.755,0,0,0,0-.75.755.755,0,0,0,.75,0H12.13a.755.755,0,0,0,.75-.75A.755.755,0,0,0,12.13-1.5Z" transform="translate(2.87 12.75)" fill="#fff"/>
+                        <path id="Vector-3" data-name="Vector" d="M4.1-8.2a.742.742,0,0,0-.53.22L.218-4.628a.754.754,0,0,0,0,1.06l3.35,3.35a.754.754,0,0,0,1.06,0,.754.754,0,0,0,0-1.06L1.807-4.1l2.82-2.82a.754.754,0,0,0,0-1.06A.725.725,0,0,0,4.1-8.2Z" transform="translate(1.753 16.097)" fill="#fff"/>
+                        <path id="Vector-4" data-name="Vector" d="M0,0H24V-24H0Z" transform="translate(0 24)" fill="none"/>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p class="menu__link-text">
+                  Logout
+                </p>
+              </a>
+            </div>
+
+            <div class="menu__close-link">
+              <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                  <g id="arrow_left" data-name="arrow left" transform="translate(16) rotate(90)">
+                    <rect id="vuesax_outline_arrow-down" data-name="vuesax/outline/arrow-down" width="16" height="16" fill="none"/>
+                    <g id="vuesax_outline_arrow-down-2" data-name="vuesax/outline/arrow-down">
+                      <g id="arrow-down">
+                        <path id="Vector" d="M5.778,5.732A1.818,1.818,0,0,1,4.492,5.2L.145.852A.5.5,0,0,1,.852.145L5.2,4.492a.821.821,0,0,0,1.16,0L10.7.145a.5.5,0,0,1,.707.707L7.065,5.2A1.818,1.818,0,0,1,5.778,5.732Z" transform="translate(2.222 5.468)" fill="#bfc2d8"/>
+                        <path id="Vector-2" data-name="Vector" d="M0,0H16V16H0Z" fill="none"/>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+    
+        </div>
+    
+        <div class="player">
+
+          <h2 class="player__title">
+            NOW PLAYING
+          </h2>
+
+          <div class="player__collapse-button">
+            <a href="" class="player__collapse-link">
+              <svg id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                  <g id="arrow-down">
+                    <path id="Vector" d="M5.778,5.732A1.818,1.818,0,0,1,4.492,5.2L.145.852A.5.5,0,0,1,.852.145L5.2,4.492a.821.821,0,0,0,1.16,0L10.7.145a.5.5,0,0,1,.707.707L7.065,5.2A1.818,1.818,0,0,1,5.778,5.732Z" transform="translate(2.222 5.468)" fill="#bfc2d8"/>
+                    
+                  </g>
+              </svg>
+            </a>
+          </div>
+
+          <div class="now-playing">
+
+            <div class="swiper">
+
+              <div class="swiper-wrapper">
+  
+                <div class="swiper-slide now-playing__image">
+
+                    <img src="assets/images/Image1@2x.jpg" alt="">
+ 
+                    <div class="now-playing__content">
+
+                      <div class="now-playing__title">
+                        <p>Through The Night</p>
+                      </div>
+          
+                      <div class="now-playing__song">
+                        <p>Lee Ji Eun</p>
+                      </div>
+        
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide now-playing__image">
+                  <img src="assets/images/Image2@2x.jpg" alt="">
+                  <div class="now-playing__content">
+
+                    <div class="now-playing__title">
+                      <p>Storebror</p>
+                    </div>
+        
+                    <div class="now-playing__song">
+                      <p>Laleh</p>
+                    </div>
+      
+                  </div>
+                </div>
+
+                <div class="swiper-slide now-playing__image">
+                  <img src="assets/images/Image3@2x.jpg" alt="">
+                  <div class="now-playing__content">
+
+                    <div class="now-playing__title">
+                      <p>Girlie Girlie</p>
+                    </div>
+        
+                    <div class="now-playing__song">
+                      <p>Sophia George</p>
+                    </div>
+      
+                  </div>
+                </div>
+              
+              </div>
+
+            </div>
+
+            <div class="now-playing__time">
+              <div class="now-playing__time-played">
+                <p>01:24</p>
+              </div>
+              <div class="now-playing__time-bar">
+                <div class="now-playing__progress-bar"></div>
+              </div>
+              <div class="now-playing__time-left">
+                <p>03:47</p>
+              </div>
+            </div>
+
+          </div>
+
+          <nav class="player__menu">
+            <ul class="player__list">
+
+              <li class="player__item"><a href="" class="player__button shuffle-button">
+                <svg id="shuffle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <rect id="vuesax_outline_shuffle" data-name="vuesax/outline/shuffle" width="24" height="24" fill="none"/>
+                  <g id="vuesax_outline_shuffle-2" data-name="vuesax/outline/shuffle">
+                    <g id="shuffle-2" data-name="shuffle">
+                      <path id="Vector" d="M3.32,13.49H3.3L.75,13.48a.75.75,0,0,1,0-1.5l2.55.01h.01a1.929,1.929,0,0,0,1.62-.87l6.39-9.58A3.444,3.444,0,0,1,14.19,0h.02l4.55.02a.755.755,0,0,1,.75.75.755.755,0,0,1-.75.75L14.21,1.5H14.2a1.929,1.929,0,0,0-1.62.87L6.19,11.95A3.419,3.419,0,0,1,3.32,13.49Z" transform="translate(2.24 5.25)" fill="#799b7d"/>
+                      <path id="Vector-2" data-name="Vector" d="M.747,3.5a.742.742,0,0,1-.53-.22.754.754,0,0,1,0-1.06l2-2a.75.75,0,0,1,1.06,1.06l-2,2A.742.742,0,0,1,.747,3.5Z" transform="translate(18.252 17.232)" fill="#799b7d"/>
+                      <path id="Vector-3" data-name="Vector" d="M6.64,4.12a.767.767,0,0,1-.61-.31L4.95,2.31A1.99,1.99,0,0,0,3.36,1.5L.75,1.51A.725.725,0,0,1,0,.76.749.749,0,0,1,.75.01L3.36,0h.02a3.477,3.477,0,0,1,2.8,1.43l1.08,1.5a.753.753,0,0,1-.17,1.05A.823.823,0,0,1,6.64,4.12Z" transform="translate(2.25 5.26)" fill="#799b7d"/>
+                      <path id="Vector-4" data-name="Vector" d="M4.1,4.115a3.473,3.473,0,0,1-2.73-1.34L.155,1.2A.756.756,0,0,1,.285.155a.756.756,0,0,1,1.05.13l1.22,1.57a2.112,2.112,0,0,0,1.55.76l4.67-.02a.75.75,0,1,1,0,1.5l-4.67.02Z" transform="translate(12.215 14.635)" fill="#799b7d"/>
+                      <path id="Vector-5" data-name="Vector" d="M2.747,3.5a.742.742,0,0,1-.53-.22l-2-2A.75.75,0,0,1,1.277.218l2,2a.754.754,0,0,1,0,1.06A.742.742,0,0,1,2.747,3.5Z" transform="translate(18.252 3.272)" fill="#799b7d"/>
+                      <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                    </g>
+                  </g>
+                </svg>
+              </a></li>
+
+              <li class="player__item"><a href="" class="player__button prev-button">
+                <svg id="previous" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <rect id="vuesax_outline_previous" data-name="vuesax/outline/previous" width="24" height="24" fill="none"/>
+                  <g id="vuesax_outline_previous-2" data-name="vuesax/outline/previous">
+                    <g id="previous-2" data-name="previous">
+                      <path id="Vector" d="M11.59,16.18a3.278,3.278,0,0,1-1.65-.45L1.65,10.95a3.3,3.3,0,0,1,0-5.72L9.94.45a3.3,3.3,0,0,1,4.95,2.86v9.57a3.284,3.284,0,0,1-1.65,2.86A3.371,3.371,0,0,1,11.59,16.18Zm0-14.68a1.812,1.812,0,0,0-.9.24L2.4,6.52a1.8,1.8,0,0,0,0,3.12l8.29,4.78a1.76,1.76,0,0,0,1.8,0,1.8,1.8,0,0,0,.9-1.56V3.29a1.8,1.8,0,0,0-.9-1.56A2.037,2.037,0,0,0,11.59,1.5Z" transform="translate(6.1 3.91)" fill="#343346"/>
+                      <path id="Vector-2" data-name="Vector" d="M.75,13.86A.755.755,0,0,1,0,13.11V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V13.11A.755.755,0,0,1,.75,13.86Z" transform="translate(3.01 5.07)" fill="#343346"/>
+                      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+                    </g>
+                  </g>
+                </svg>
+              </a></li>
+
+              <li class="player__item"><a href="" class="player__button play-button">
+                <svg id="pause" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <rect id="vuesax_bold_pause" data-name="vuesax/bold/pause" width="24" height="24" fill="none"/>
+                  <g id="vuesax_bold_pause-2" data-name="vuesax/bold/pause">
+                    <g id="pause-2" data-name="pause">
+                      <path id="Vector" d="M7.65,16.11V1.89C7.65.54,7.08,0,5.64,0H2.01C.57,0,0,.54,0,1.89V16.11C0,17.46.57,18,2.01,18H5.64C7.08,18,7.65,17.46,7.65,16.11Z" transform="translate(3 3)" fill="#d6f5db"/>
+                      <path id="Vector-2" data-name="Vector" d="M7.65,16.11V1.89C7.65.54,7.08,0,5.64,0H2.01C.58,0,0,.54,0,1.89V16.11C0,17.46.57,18,2.01,18H5.64C7.08,18,7.65,17.46,7.65,16.11Z" transform="translate(13.35 3)" fill="#d6f5db"/>
+                      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                    </g>
+                  </g>
+                </svg>
+              </a></li>
+
+              <li class="player__item"><a href="" class="player__button next-button">
+                <svg id="next" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <rect id="vuesax_outline_next" data-name="vuesax/outline/next" width="24" height="24" fill="none"/>
+                  <g id="vuesax_outline_next-2" data-name="vuesax/outline/next">
+                    <g id="next-2" data-name="next">
+                      <path id="Vector" d="M3.3,16.19a3.278,3.278,0,0,1-1.65-.45A3.252,3.252,0,0,1,0,12.88V3.31A3.284,3.284,0,0,1,1.65.45a3.25,3.25,0,0,1,3.3,0l8.29,4.78a3.3,3.3,0,0,1,0,5.72L4.95,15.73A3.192,3.192,0,0,1,3.3,16.19Zm0-14.68a1.8,1.8,0,0,0-1.8,1.8v9.57a1.8,1.8,0,0,0,2.7,1.56l8.29-4.78a1.8,1.8,0,0,0,0-3.12L4.2,1.76A1.823,1.823,0,0,0,3.3,1.51Z" transform="translate(3.01 3.9)" fill="#343346"/>
+                      <path id="Vector-2" data-name="Vector" d="M.75,13.86A.755.755,0,0,1,0,13.11V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V13.11A.749.749,0,0,1,.75,13.86Z" transform="translate(19.49 5.07)" fill="#343346"/>
+                      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+                    </g>
+                  </g>
+                </svg>
+              </a></li>
+
+              <li class="player__item"><a href="" class="player__button repeat-button">
+                <svg id="repeate-music" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <rect id="vuesax_outline_repeate-music" data-name="vuesax/outline/repeate-music" width="24" height="24" fill="none"/>
+                  <g id="vuesax_outline_repeate-music-2" data-name="vuesax/outline/repeate-music">
+                    <g id="repeate-music-2" data-name="repeate-music">
+                      <path id="Vector" d="M2.66,14.931a.742.742,0,0,1-.53-.22,7.262,7.262,0,0,1,5.12-12.4l6.07.02-1.09-1.04A.75.75,0,1,1,13.27.211l2.44,2.34a.747.747,0,0,1-.52,1.29l-7.95-.02a5.763,5.763,0,0,0-4.06,9.84.754.754,0,0,1,0,1.06A.734.734,0,0,1,2.66,14.931Z" transform="translate(1.25 2.249)" fill="#799b7d"/>
+                      <path id="Vector-2" data-name="Vector" d="M3.191,14.937a.751.751,0,0,1-.52-.21l-2.44-2.34a.76.76,0,0,1-.18-.82.753.753,0,0,1,.7-.47l7.95.02a5.763,5.763,0,0,0,4.06-9.84.75.75,0,0,1,1.06-1.06,7.262,7.262,0,0,1-5.12,12.4l-6.07-.02,1.09,1.04a.746.746,0,0,1,.02,1.06A.768.768,0,0,1,3.191,14.937Z" transform="translate(6.809 6.813)" fill="#799b7d"/>
+                      <path id="Vector-3" data-name="Vector" d="M6.75,1.5h-6A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h6A.755.755,0,0,1,7.5.75.755.755,0,0,1,6.75,1.5Z" transform="translate(8.25 11.25)" fill="#799b7d"/>
+                      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                    </g>
+                  </g>
+                </svg>
+              </a></li>
+
+            </ul>
+          </nav>
+
+          <div class="queue">
+
+            <h3 class="queue__title">
+              YOUR QUEUE
+            </h3>
+
+            <ul class="queue__list">
+
+              <li class="queue__item">  
+
+                  <div class="queue__item-content">
+  
+                    <div class="queue__item-image">
+                      <img src="assets/images/q4@2x.jpg" alt="">
+                    </div>
+                      
+                    <div>
+                      <p class="queue__song">I Like Me Better</p>
+                      <p class="queue__artist">Lauv</p>
+                    </div>
+  
+                  </div>
+                  
+                  <a href="" class="queue-more__link ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="3" viewBox="0 0 18 3">
+                      <g id="Frame" transform="translate(-3 -10.5)">
+                        <path id="Vector" d="M1.5,0A1.5,1.5,0,1,0,3,1.5,1.5,1.5,0,0,0,1.5,0Zm15,0A1.5,1.5,0,1,0,18,1.5,1.5,1.5,0,0,0,16.5,0ZM9,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,9,0Z" transform="translate(3 10.5)" fill="#a8a8a8"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                <div class="queue-more__menu">
+
+                  <ul class="queue-more__list">
+
+                    <li><a href="" class="queue-more__play-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13.528" height="13.528" viewBox="0 0 13.528 13.528">
+                        <path id="play" d="M12.422,4.975a2,2,0,0,1,0,3.578L2.894,13.317A2,2,0,0,1,0,11.528V2A2,2,0,0,1,2.894.211Z" fill="#1c1e2c"/>
+                      </svg>
+                      Play now
+                    </a></li>
+
+                    <li><a href="" class="queue-more__delete-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15">
+                        <g id="Delete" transform="translate(-332.5 -731)">
+                          <path id="Path_12" data-name="Path 12" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(338 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_11" data-name="Path 11" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(340 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_10" data-name="Path 10" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(342 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_9" data-name="Path 9" d="M1,1V11a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1H1M0,0H11V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" transform="translate(334 733)" fill="#73707d"/>
+                          <path id="Path_8" data-name="Path 8" d="M0,0H13" transform="translate(333 733.5)" fill="none" stroke="#73707d" stroke-linecap="round" stroke-width="1"/>
+                          <path id="Path_7" data-name="Path 7" d="M1,1V2H4V1H1M1,0H4A1,1,0,0,1,5,1V3H0V1A1,1,0,0,1,1,0Z" transform="translate(337 731)" fill="#73707d"/>
+                        </g>
+                      </svg>
+                      Remove from queue
+                    </a></li>
+
+                    <li><a href="" class="queue-more__share-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11.454" height="11.453" viewBox="0 0 11.454 11.453">
+                        <path id="share" d="M15.376,5.984a.477.477,0,0,0-.332.819l.776.776h-.438a6.844,6.844,0,0,0-6.837,6.837.477.477,0,1,0,.954,0,5.875,5.875,0,0,1,5.883-5.883h.438l-.776.776a.477.477,0,1,0,.674.674l1.549-1.549a.477.477,0,0,0,0-.759L15.718,6.129a.477.477,0,0,0-.342-.145Zm-7.309,0A2.074,2.074,0,0,0,6,8.056V15.37a2.074,2.074,0,0,0,2.067,2.067h7.314a2.074,2.074,0,0,0,2.067-2.067V12.826a.477.477,0,1,0-.954,0V15.37a1.106,1.106,0,0,1-1.113,1.113H8.067A1.106,1.106,0,0,1,6.954,15.37V8.056A1.106,1.106,0,0,1,8.067,6.943h2.544a.477.477,0,1,0,0-.954Z" transform="translate(-6 -5.984)" fill="#28283a" opacity="0.75"/>
+                      </svg>
+                      Share
+                    </a></li>
+
+                  </ul>
+
+                  <a href="" class="queue-more__close-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.806" height="8.263" viewBox="0 0 7.806 8.263">
+                      <g id="close" transform="translate(0.707 0.707)" opacity="0.76">
+                        <path id="Path_14" data-name="Path 14" d="M6.393,0,0,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                        <path id="Path_13" data-name="Path 13" d="M0,0,6.393,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </li>
+
+              <li class="queue__item">  
+
+                  <div class="queue__item-content">
+  
+                    <div class="queue__item-image">
+                      <img src="assets/images/q1@2x.jpg" alt="">
+                    </div>
+                      
+                    <div>
+                      <p class="queue__song">Praising</p>
+                      <p class="queue__artist">Groundation</p>
+                    </div>
+  
+                  </div>
+                  
+                  <a href="" class="queue-more__link ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="3" viewBox="0 0 18 3">
+                      <g id="Frame" transform="translate(-3 -10.5)">
+                        <path id="Vector" d="M1.5,0A1.5,1.5,0,1,0,3,1.5,1.5,1.5,0,0,0,1.5,0Zm15,0A1.5,1.5,0,1,0,18,1.5,1.5,1.5,0,0,0,16.5,0ZM9,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,9,0Z" transform="translate(3 10.5)" fill="#a8a8a8"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                <div class="queue-more__menu">
+
+                  <ul class="queue-more__list">
+
+                    <li><a href="" class="queue-more__play-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13.528" height="13.528" viewBox="0 0 13.528 13.528">
+                        <path id="play" d="M12.422,4.975a2,2,0,0,1,0,3.578L2.894,13.317A2,2,0,0,1,0,11.528V2A2,2,0,0,1,2.894.211Z" fill="#1c1e2c"/>
+                      </svg>
+                      Play now
+                    </a></li>
+
+                    <li><a href="" class="queue-more__delete-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15">
+                        <g id="Delete" transform="translate(-332.5 -731)">
+                          <path id="Path_12" data-name="Path 12" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(338 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_11" data-name="Path 11" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(340 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_10" data-name="Path 10" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(342 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_9" data-name="Path 9" d="M1,1V11a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1H1M0,0H11V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" transform="translate(334 733)" fill="#73707d"/>
+                          <path id="Path_8" data-name="Path 8" d="M0,0H13" transform="translate(333 733.5)" fill="none" stroke="#73707d" stroke-linecap="round" stroke-width="1"/>
+                          <path id="Path_7" data-name="Path 7" d="M1,1V2H4V1H1M1,0H4A1,1,0,0,1,5,1V3H0V1A1,1,0,0,1,1,0Z" transform="translate(337 731)" fill="#73707d"/>
+                        </g>
+                      </svg>
+                      Remove from queue
+                    </a></li>
+
+                    <li><a href="" class="queue-more__share-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11.454" height="11.453" viewBox="0 0 11.454 11.453">
+                        <path id="share" d="M15.376,5.984a.477.477,0,0,0-.332.819l.776.776h-.438a6.844,6.844,0,0,0-6.837,6.837.477.477,0,1,0,.954,0,5.875,5.875,0,0,1,5.883-5.883h.438l-.776.776a.477.477,0,1,0,.674.674l1.549-1.549a.477.477,0,0,0,0-.759L15.718,6.129a.477.477,0,0,0-.342-.145Zm-7.309,0A2.074,2.074,0,0,0,6,8.056V15.37a2.074,2.074,0,0,0,2.067,2.067h7.314a2.074,2.074,0,0,0,2.067-2.067V12.826a.477.477,0,1,0-.954,0V15.37a1.106,1.106,0,0,1-1.113,1.113H8.067A1.106,1.106,0,0,1,6.954,15.37V8.056A1.106,1.106,0,0,1,8.067,6.943h2.544a.477.477,0,1,0,0-.954Z" transform="translate(-6 -5.984)" fill="#28283a" opacity="0.75"/>
+                      </svg>
+                      Share
+                    </a></li>
+
+                  </ul>
+
+                  <a href="" class="queue-more__close-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.806" height="8.263" viewBox="0 0 7.806 8.263">
+                      <g id="close" transform="translate(0.707 0.707)" opacity="0.76">
+                        <path id="Path_14" data-name="Path 14" d="M6.393,0,0,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                        <path id="Path_13" data-name="Path 13" d="M0,0,6.393,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </li>
+
+              <li class="queue__item">  
+
+                  <div class="queue__item-content">
+  
+                    <div class="queue__item-image">
+                      <img src="assets/images/q2@2x.jpg" alt="">
+                    </div>
+                      
+                    <div>
+                      <p class="queue__song">As We Enter</p>
+                      <p class="queue__artist">Nas & Damian "Jr. Gong" Marley</p>
+                    </div>
+  
+                  </div>
+                  
+                  <a href="" class="queue-more__link ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="3" viewBox="0 0 18 3">
+                      <g id="Frame" transform="translate(-3 -10.5)">
+                        <path id="Vector" d="M1.5,0A1.5,1.5,0,1,0,3,1.5,1.5,1.5,0,0,0,1.5,0Zm15,0A1.5,1.5,0,1,0,18,1.5,1.5,1.5,0,0,0,16.5,0ZM9,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,9,0Z" transform="translate(3 10.5)" fill="#a8a8a8"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                <div class="queue-more__menu">
+
+                  <ul class="queue-more__list">
+
+                    <li><a href="" class="queue-more__play-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13.528" height="13.528" viewBox="0 0 13.528 13.528">
+                        <path id="play" d="M12.422,4.975a2,2,0,0,1,0,3.578L2.894,13.317A2,2,0,0,1,0,11.528V2A2,2,0,0,1,2.894.211Z" fill="#1c1e2c"/>
+                      </svg>
+                      Play now
+                    </a></li>
+
+                    <li><a href="" class="queue-more__delete-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15">
+                        <g id="Delete" transform="translate(-332.5 -731)">
+                          <path id="Path_12" data-name="Path 12" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(338 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_11" data-name="Path 11" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(340 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_10" data-name="Path 10" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(342 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_9" data-name="Path 9" d="M1,1V11a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1H1M0,0H11V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" transform="translate(334 733)" fill="#73707d"/>
+                          <path id="Path_8" data-name="Path 8" d="M0,0H13" transform="translate(333 733.5)" fill="none" stroke="#73707d" stroke-linecap="round" stroke-width="1"/>
+                          <path id="Path_7" data-name="Path 7" d="M1,1V2H4V1H1M1,0H4A1,1,0,0,1,5,1V3H0V1A1,1,0,0,1,1,0Z" transform="translate(337 731)" fill="#73707d"/>
+                        </g>
+                      </svg>
+                      Remove from queue
+                    </a></li>
+
+                    <li><a href="" class="queue-more__share-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11.454" height="11.453" viewBox="0 0 11.454 11.453">
+                        <path id="share" d="M15.376,5.984a.477.477,0,0,0-.332.819l.776.776h-.438a6.844,6.844,0,0,0-6.837,6.837.477.477,0,1,0,.954,0,5.875,5.875,0,0,1,5.883-5.883h.438l-.776.776a.477.477,0,1,0,.674.674l1.549-1.549a.477.477,0,0,0,0-.759L15.718,6.129a.477.477,0,0,0-.342-.145Zm-7.309,0A2.074,2.074,0,0,0,6,8.056V15.37a2.074,2.074,0,0,0,2.067,2.067h7.314a2.074,2.074,0,0,0,2.067-2.067V12.826a.477.477,0,1,0-.954,0V15.37a1.106,1.106,0,0,1-1.113,1.113H8.067A1.106,1.106,0,0,1,6.954,15.37V8.056A1.106,1.106,0,0,1,8.067,6.943h2.544a.477.477,0,1,0,0-.954Z" transform="translate(-6 -5.984)" fill="#28283a" opacity="0.75"/>
+                      </svg>
+                      Share
+                    </a></li>
+
+                  </ul>
+
+                  <a href="" class="queue-more__close-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.806" height="8.263" viewBox="0 0 7.806 8.263">
+                      <g id="close" transform="translate(0.707 0.707)" opacity="0.76">
+                        <path id="Path_14" data-name="Path 14" d="M6.393,0,0,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                        <path id="Path_13" data-name="Path 13" d="M0,0,6.393,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </li>
+
+              <li class="queue__item">  
+
+                  <div class="queue__item-content">
+  
+                    <div class="queue__item-image">
+                      <img src="assets/images/q3@2x.jpg" alt="">
+                    </div>
+                      
+                    <div>
+                      <p class="queue__song">The harder they come</p>
+                      <p class="queue__artist">Jimmy Cliff</p>
+                    </div>
+  
+                  </div>
+                  
+                  <a href="" class="queue-more__link ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="3" viewBox="0 0 18 3">
+                      <g id="Frame" transform="translate(-3 -10.5)">
+                        <path id="Vector" d="M1.5,0A1.5,1.5,0,1,0,3,1.5,1.5,1.5,0,0,0,1.5,0Zm15,0A1.5,1.5,0,1,0,18,1.5,1.5,1.5,0,0,0,16.5,0ZM9,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,9,0Z" transform="translate(3 10.5)" fill="#a8a8a8"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                <div class="queue-more__menu">
+
+                  <ul class="queue-more__list">
+
+                    <li><a href="" class="queue-more__play-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13.528" height="13.528" viewBox="0 0 13.528 13.528">
+                        <path id="play" d="M12.422,4.975a2,2,0,0,1,0,3.578L2.894,13.317A2,2,0,0,1,0,11.528V2A2,2,0,0,1,2.894.211Z" fill="#1c1e2c"/>
+                      </svg>
+                      Play now
+                    </a></li>
+
+                    <li><a href="" class="queue-more__delete-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15">
+                        <g id="Delete" transform="translate(-332.5 -731)">
+                          <path id="Path_12" data-name="Path 12" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(338 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_11" data-name="Path 11" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(340 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_10" data-name="Path 10" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(342 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_9" data-name="Path 9" d="M1,1V11a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1H1M0,0H11V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" transform="translate(334 733)" fill="#73707d"/>
+                          <path id="Path_8" data-name="Path 8" d="M0,0H13" transform="translate(333 733.5)" fill="none" stroke="#73707d" stroke-linecap="round" stroke-width="1"/>
+                          <path id="Path_7" data-name="Path 7" d="M1,1V2H4V1H1M1,0H4A1,1,0,0,1,5,1V3H0V1A1,1,0,0,1,1,0Z" transform="translate(337 731)" fill="#73707d"/>
+                        </g>
+                      </svg>
+                      Remove from queue
+                    </a></li>
+
+                    <li><a href="" class="queue-more__share-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11.454" height="11.453" viewBox="0 0 11.454 11.453">
+                        <path id="share" d="M15.376,5.984a.477.477,0,0,0-.332.819l.776.776h-.438a6.844,6.844,0,0,0-6.837,6.837.477.477,0,1,0,.954,0,5.875,5.875,0,0,1,5.883-5.883h.438l-.776.776a.477.477,0,1,0,.674.674l1.549-1.549a.477.477,0,0,0,0-.759L15.718,6.129a.477.477,0,0,0-.342-.145Zm-7.309,0A2.074,2.074,0,0,0,6,8.056V15.37a2.074,2.074,0,0,0,2.067,2.067h7.314a2.074,2.074,0,0,0,2.067-2.067V12.826a.477.477,0,1,0-.954,0V15.37a1.106,1.106,0,0,1-1.113,1.113H8.067A1.106,1.106,0,0,1,6.954,15.37V8.056A1.106,1.106,0,0,1,8.067,6.943h2.544a.477.477,0,1,0,0-.954Z" transform="translate(-6 -5.984)" fill="#28283a" opacity="0.75"/>
+                      </svg>
+                      Share
+                    </a></li>
+
+                  </ul>
+
+                  <a href="" class="queue-more__close-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.806" height="8.263" viewBox="0 0 7.806 8.263">
+                      <g id="close" transform="translate(0.707 0.707)" opacity="0.76">
+                        <path id="Path_14" data-name="Path 14" d="M6.393,0,0,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                        <path id="Path_13" data-name="Path 13" d="M0,0,6.393,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </li>
+
+              <li class="queue__item">  
+
+                  <div class="queue__item-content">
+  
+                    <div class="queue__item-image">
+                      <img src="assets/images/q4@2x.jpg" alt="">
+                    </div>
+                      
+                    <div class="queue__track">
+                      <p class="queue__song">You and Me</p>
+                      <p class="queue__artist">SOJA</p>
+                    </div>
+  
+                  </div>
+                  
+                  <a href="" class="queue-more__link ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="3" viewBox="0 0 18 3">
+                      <g id="Frame" transform="translate(-3 -10.5)">
+                        <path id="Vector" d="M1.5,0A1.5,1.5,0,1,0,3,1.5,1.5,1.5,0,0,0,1.5,0Zm15,0A1.5,1.5,0,1,0,18,1.5,1.5,1.5,0,0,0,16.5,0ZM9,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,9,0Z" transform="translate(3 10.5)" fill="#a8a8a8"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                <div class="queue-more__menu">
+
+                  <ul class="queue-more__list">
+
+                    <li><a href="" class="queue-more__play-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13.528" height="13.528" viewBox="0 0 13.528 13.528">
+                        <path id="play" d="M12.422,4.975a2,2,0,0,1,0,3.578L2.894,13.317A2,2,0,0,1,0,11.528V2A2,2,0,0,1,2.894.211Z" fill="#1c1e2c"/>
+                      </svg>
+                      Play now
+                    </a></li>
+
+                    <li><a href="" class="queue-more__delete-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15">
+                        <g id="Delete" transform="translate(-332.5 -731)">
+                          <path id="Path_12" data-name="Path 12" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(338 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_11" data-name="Path 11" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(340 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_10" data-name="Path 10" d="M.5,0A.5.5,0,0,1,1,.5V6.207a.5.5,0,0,1-1,0V.5A.5.5,0,0,1,.5,0Z" transform="translate(342 742.976) rotate(180)" fill="#72717d"/>
+                          <path id="Path_9" data-name="Path 9" d="M1,1V11a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1H1M0,0H11V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" transform="translate(334 733)" fill="#73707d"/>
+                          <path id="Path_8" data-name="Path 8" d="M0,0H13" transform="translate(333 733.5)" fill="none" stroke="#73707d" stroke-linecap="round" stroke-width="1"/>
+                          <path id="Path_7" data-name="Path 7" d="M1,1V2H4V1H1M1,0H4A1,1,0,0,1,5,1V3H0V1A1,1,0,0,1,1,0Z" transform="translate(337 731)" fill="#73707d"/>
+                        </g>
+                      </svg>
+                      Remove from queue
+                    </a></li>
+
+                    <li><a href="" class="queue-more__share-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11.454" height="11.453" viewBox="0 0 11.454 11.453">
+                        <path id="share" d="M15.376,5.984a.477.477,0,0,0-.332.819l.776.776h-.438a6.844,6.844,0,0,0-6.837,6.837.477.477,0,1,0,.954,0,5.875,5.875,0,0,1,5.883-5.883h.438l-.776.776a.477.477,0,1,0,.674.674l1.549-1.549a.477.477,0,0,0,0-.759L15.718,6.129a.477.477,0,0,0-.342-.145Zm-7.309,0A2.074,2.074,0,0,0,6,8.056V15.37a2.074,2.074,0,0,0,2.067,2.067h7.314a2.074,2.074,0,0,0,2.067-2.067V12.826a.477.477,0,1,0-.954,0V15.37a1.106,1.106,0,0,1-1.113,1.113H8.067A1.106,1.106,0,0,1,6.954,15.37V8.056A1.106,1.106,0,0,1,8.067,6.943h2.544a.477.477,0,1,0,0-.954Z" transform="translate(-6 -5.984)" fill="#28283a" opacity="0.75"/>
+                      </svg>
+                      Share
+                    </a></li>
+
+                  </ul>
+
+                  <a href="" class="queue-more__close-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="7.806" height="8.263" viewBox="0 0 7.806 8.263">
+                      <g id="close" transform="translate(0.707 0.707)" opacity="0.76">
+                        <path id="Path_14" data-name="Path 14" d="M6.393,0,0,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                        <path id="Path_13" data-name="Path 13" d="M0,0,6.393,6.85" fill="none" stroke="#343346" stroke-linecap="round" stroke-width="1"/>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+    
+        </div>
+
+        <div class="player-small">
+
+          <div class="player-small__content">
+
+            <div class="player-small__image">
+              <img src="assets/images/Image1@2x.jpg" alt="">
+            </div>
+  
+            <div class="player-small__track">
+              <p class="player-small__song">Through The Night</p>
+              <p class="player-small__artist">Lee Ji Eun</p>
+            </div>
+
+          </div>
+
+          <div class="player-small__buttons">
+
+            <a href="" class="prev-button">
+              <svg id="previous" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <rect id="vuesax_outline_previous" data-name="vuesax/outline/previous" width="24" height="24" fill="none"/>
+                <g id="vuesax_outline_previous-2" data-name="vuesax/outline/previous">
+                  <g id="previous-2" data-name="previous">
+                    <path id="Vector" d="M11.59,16.18a3.278,3.278,0,0,1-1.65-.45L1.65,10.95a3.3,3.3,0,0,1,0-5.72L9.94.45a3.3,3.3,0,0,1,4.95,2.86v9.57a3.284,3.284,0,0,1-1.65,2.86A3.371,3.371,0,0,1,11.59,16.18Zm0-14.68a1.812,1.812,0,0,0-.9.24L2.4,6.52a1.8,1.8,0,0,0,0,3.12l8.29,4.78a1.76,1.76,0,0,0,1.8,0,1.8,1.8,0,0,0,.9-1.56V3.29a1.8,1.8,0,0,0-.9-1.56A2.037,2.037,0,0,0,11.59,1.5Z" transform="translate(6.1 3.91)" fill="#343346"/>
+                    <path id="Vector-2" data-name="Vector" d="M.75,13.86A.755.755,0,0,1,0,13.11V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V13.11A.755.755,0,0,1,.75,13.86Z" transform="translate(3.01 5.07)" fill="#343346"/>
+                    <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+
+            <a href="" class="player-small__play-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13.528" height="13.528" viewBox="0 0 13.528 13.528">
+                <path id="play" d="M12.422,4.975a2,2,0,0,1,0,3.578L2.894,13.317A2,2,0,0,1,0,11.528V2A2,2,0,0,1,2.894.211Z" fill="#1c1e2c"/>
+              </svg>
+            </a>
+
+            <a href="" class="next-button">
+              <svg id="next" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <rect id="vuesax_outline_next" data-name="vuesax/outline/next" width="24" height="24" fill="none"/>
+                <g id="vuesax_outline_next-2" data-name="vuesax/outline/next">
+                  <g id="next-2" data-name="next">
+                    <path id="Vector" d="M3.3,16.19a3.278,3.278,0,0,1-1.65-.45A3.252,3.252,0,0,1,0,12.88V3.31A3.284,3.284,0,0,1,1.65.45a3.25,3.25,0,0,1,3.3,0l8.29,4.78a3.3,3.3,0,0,1,0,5.72L4.95,15.73A3.192,3.192,0,0,1,3.3,16.19Zm0-14.68a1.8,1.8,0,0,0-1.8,1.8v9.57a1.8,1.8,0,0,0,2.7,1.56l8.29-4.78a1.8,1.8,0,0,0,0-3.12L4.2,1.76A1.823,1.823,0,0,0,3.3,1.51Z" transform="translate(3.01 3.9)" fill="#343346"/>
+                    <path id="Vector-2" data-name="Vector" d="M.75,13.86A.755.755,0,0,1,0,13.11V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V13.11A.749.749,0,0,1,.75,13.86Z" transform="translate(19.49 5.07)" fill="#343346"/>
+                    <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none"/>
+                  </g>
+                </g>
+              </svg>
+            </a>
+
+          </div>
+
+          <div class="player-small__expand-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <g id="arrowup" transform="translate(16 16) rotate(180)" opacity="0.39">
+                <rect id="vuesax_outline_arrow-down" data-name="vuesax/outline/arrow-down" width="16" height="16" fill="none"/>
+                <g id="vuesax_outline_arrow-down-2" data-name="vuesax/outline/arrow-down">
+                  <g id="arrow-down">
+                    <path id="Vector" d="M5.778,5.732A1.818,1.818,0,0,1,4.492,5.2L.145.852A.5.5,0,0,1,.852.145L5.2,4.492a.821.821,0,0,0,1.16,0L10.7.145a.5.5,0,0,1,.707.707L7.065,5.2A1.818,1.818,0,0,1,5.778,5.732Z" transform="translate(2.222 5.468)" fill="#28283a"/>
+                    <path id="Vector-2" data-name="Vector" d="M0,0H16V16H0Z" fill="none"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+
+        </div>
+    
+        <div class="home">
+
+          <div class="menu-button-bg">
+            <button class="menu-button">
+              <div class="menu-button__hamburger"></div>
+            </button>
+          </div>
+
+          <header class="home-header">
+
+            <form action="" class="search-form">
+
+              <label for="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g id="search2" opacity="0.6">
+                    <rect id="vuesax_outline_search-normal" data-name="vuesax/outline/search-normal" width="24" height="24" fill="none" opacity="0.6"/>
+                    <g id="vuesax_outline_search-normal-2" data-name="vuesax/outline/search-normal">
+                      <g id="search-normal">
+                        <path id="Vector" d="M10.25,20.5A10.25,10.25,0,1,1,20.5,10.25,10.264,10.264,0,0,1,10.25,20.5Zm0-19A8.75,8.75,0,1,0,19,10.25,8.76,8.76,0,0,0,10.25,1.5Z" transform="translate(1.25 1.25)" fill="#fff"/>
+                        <path id="Vector-2" data-name="Vector" d="M2.748,3.5a.742.742,0,0,1-.53-.22l-2-2A.75.75,0,0,1,1.278.218l2,2a.754.754,0,0,1,0,1.06A.742.742,0,0,1,2.748,3.5Z" transform="translate(19.252 19.252)" fill="#fff"/>
+                        <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </label>
+
+              <input class="search-form-input" type="search" name="" id="search" placeholder="Search anything">
+
+            </form>
+            
+            <div class="home-header-profile">
+
+              <div class="home-header-profile__image">
+                <img src="assets/images/portrait1@2x.jpg" alt="">
+              </div>
+
+              <a href="">
+                <svg id="arrow_down" data-name="arrow down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                  <rect id="vuesax_outline_arrow-down" data-name="vuesax/outline/arrow-down" width="16" height="16" fill="none"/>
+                  <g id="vuesax_outline_arrow-down-2" data-name="vuesax/outline/arrow-down">
+                    <g id="arrow-down">
+                      <path id="Vector" d="M5.778,5.732A1.818,1.818,0,0,1,4.492,5.2L.145.852A.5.5,0,0,1,.852.145L5.2,4.492a.821.821,0,0,0,1.16,0L10.7.145a.5.5,0,0,1,.707.707L7.065,5.2A1.818,1.818,0,0,1,5.778,5.732Z" transform="translate(2.222 5.468)" fill="#bfc2d8"/>
+                      <path id="Vector-2" data-name="Vector" d="M0,0H16V16H0Z" fill="none"/>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              
+              
+            </div>
+
+          </header>
+
+          <div class="top-artist">
+
+            <header class="top-artist__header">
+              <h2 class="top-artist__title">TOP ARTIST</h2>
+              <a href="" class="top-artist__link">SEE ALL</a>
+            </header>
+
+            <div class="top-artist__cards">
+
+              <div class="top-artist__card">
+                <div class="top-artist__image"><img src="assets/images/portrait2@2x.jpg" alt=""></div>
+                <a class="top-artist__name">Blackpurple</a>
+              </div>
+
+              <div class="top-artist__card">
+                <div class="top-artist__image"><img src="assets/images/portrait3@2x.jpg" alt=""></div>
+                <a class="top-artist__name">Sangat Tulus</a>
+              </div>
+
+              <div class="top-artist__card">
+                <div class="top-artist__image"><img src="assets/images/portrait4@2x.jpg" alt=""></div>
+                <a class="top-artist__name">Olivia Rodrigo</a>
+              </div>
+
+              <div class="top-artist__card">
+                <div class="top-artist__image"><img src="assets/images/portrait5@2x.jpg" alt=""></div>
+                <a class="top-artist__name">Sangat Tulus</a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="last-played home-section">
+
+            <header class="last-played__header home-section__header">
+              <h2 class="last-played__title home-section__title">LAST PLAYED</h2>
+              <a href="" class="last-played__button home-section__button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                  <path id="play" d="M6.211,3.578a2,2,0,0,1,3.578,0l4.764,9.528A2,2,0,0,1,12.764,16H3.236a2,2,0,0,1-1.789-2.894Z" transform="translate(16 0) rotate(90)" fill="#28283a"/>
+                </svg>
+              </a>
+            </header>
+
+            <div class="last-played__cards home-section__cards">
+
+              <a href="" class="last-played__card home-section__card">
+                <div class="last-played__image home-section__image">
+                  <img src="assets/images/lp1@2x.jpg" alt="">
+                </div>
+                <div class="last-played__track home-section__track">
+                  <p class="last-played__song home-section__song">I Like Me Better I like me better</p>
+                  <p class="last-played__artist home-section__artist">Lauv</p>
+                </div>
+              </a>
+
+              <a href="" class="last-played__card home-section__card">
+                <div class="last-played__image home-section__image">
+                  <img src="assets/images/lp2@2x.jpg" alt="">
+                </div> 
+                <div class="last-played__track home-section__track">
+                  <p class="last-played__song home-section__song">Love Story</p>
+                  <p class="last-played__artist home-section__artist">Taylor Swift</p>
+                </div>
+              </a>
+
+              <a href="" class="last-played__card home-section__card">
+                <div class="last-played__image home-section__image">
+                  <img src="assets/images/lp3@2x.jpg" alt="">
+                </div>
+                <div class="last-played__track home-section__track">
+                  <p class="last-played__song home-section__song">Hold My</p>
+                  <p class="last-played__artist home-section__artist">I</p>
+                </div>
+              </a>
+
+              <a href="" class="last-played__card home-section__card">
+                <div class="last-played__image home-section__image">
+                  <img src="assets/images/lp4@2x.jpg" alt="">
+                </div>
+                <div class="last-played__track home-section__track">
+                  <p class="last-played__song home-section__song">Judge Not</p>
+                  <p class="last-played__artist home-section__artist">Bob Marley</p>
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="liked-songs home-section">
+
+            <header class="liked-songs__header home-section__header">
+              <h2 class="liked-songs__title home-section__title">LIKED SONGS</h2>
+              <a href="" class="liked-songs__button home-section__button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                  <path id="play" d="M6.211,3.578a2,2,0,0,1,3.578,0l4.764,9.528A2,2,0,0,1,12.764,16H3.236a2,2,0,0,1-1.789-2.894Z" transform="translate(16 0) rotate(90)" fill="#28283a"/>
+                </svg>
+              </a>
+            </header>
+
+            <div class="liked-songs__cards home-section__cards">
+
+              <a href="" class="liked-songs__card home-section__card">
+                <div class="liked-songs__image home-section__image">
+                  <img src="assets/images/ls1@2x.jpg" alt="">
+                </div>
+                <div class="liked-songs__track home-section__track">
+                  <p class="liked-songs__song home-section__song">Lucky</p>
+                  <p class="liked-songs__artist home-section__artist">Jason Mraz</p>
+                </div>
+              </a>
+
+              <a href="" class="liked-songs__card home-section__card">
+                <div class="liked-songs__image home-section__image">
+                  <img src="assets/images/ls2@2x.jpg" alt="">
+                </div>
+                <div class="liked-songs__track home-section__track">
+                  <p class="liked-songs__song home-section__song">La La Lost You</p>
+                  <p class="liked-songs__artist home-section__artist">NIK</p>
+                </div>
+              </a>
+
+              <a href="" class="liked-songs__card home-section__card">
+                <div class="liked-songs__image home-section__image">
+                  <img src="assets/images/ls3@2x.jpg" alt="">
+                </div>
+                <div class="liked-songs__track home-section__track">
+                  <p class="liked-songs__song home-section__song">Neve</p>
+                  <p class="liked-songs__artist home-section__artist">Lauv</p>
+                </div>
+              </a>
+
+              <a href="" class="liked-songs__card home-section__card">
+                <div class="liked-songs__image home-section__image">
+                  <img src="assets/images/ls4@2x.jpg" alt="">
+                </div>
+                <div class="liked-songs__track home-section__track">
+                  <p class="liked-songs__song home-section__song">Night Changes</p>
+                  <p class="liked-songs__artist home-section__artist">Two Directions</p>
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+
+</div>
     
 </body>
 </html>
